@@ -1,0 +1,12 @@
+id = "terraform-link-docs"
+name = "Terraform Link Docs"
+version = "0.0.1"
+schema_version = 1
+authors = ["laluowen"]
+description = "Clickable links from Terraform resources, data sources, and module sources to their registry.terraform.io documentation."
+repository = "https://github.com/laluowen/zed-terraform-link-docs"
+
+[language_servers.terraform-link-docs]
+name = "Terraform Link Docs"
+languages = ["Terraform", "HCL"]
+language_ids = { "Terraform" = "terraform", "HCL" = "hcl" }
